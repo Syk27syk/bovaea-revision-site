@@ -3,7 +3,7 @@
         <div id="BOVAEA part 1">
             <div class="flex flex-row">
                 <h3><NuxtLink to="">BOVAEA Part 1</NuxtLInk></h3>
-                <button @click="toggleIsHidden1">
+                <button @click="toggleIsHidden">
                     <svg
                         class="-mr-1 ml-2 h-5 w-5"
                         xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,13 @@
                 </button>
             </div>
             <div v-show="isHidden" id="dropdown1" class="grid grid-rows-6">
-                <ul v-for="(name, link) in bovaea1list">{{ name }}: {{ link }} </ul>
+                <ul
+                    <li v-for="(name, link) in bovaea1list"
+                        :key={{ name }}
+                        :value={{ link }}
+                    >
+                    </li>
+                </ul>
                 <!--
                 <ul><NuxtLink to=""> Property Taxation </NuxtLink></ul>
                 <ul><NuxtLink to=""> Intro to Law </NuxtLink></ul>
@@ -60,7 +66,7 @@
             <p> sales networks </p>
         </div>
         <div id="analytics for sales and marketing">
-            <p> metrics for sales and marekting </p>
+            <p> metrics for sales and marketing </p>
         </div>
         <div id="real estate investment and finance">
             <p> urban economics </p>
