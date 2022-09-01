@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!--
         <div id="BOVAEA part 1">
             <div class="flex flex-row">
                 <h3><NuxtLink to="">BOVAEA Part 1</NuxtLInk></h3>
@@ -138,6 +139,7 @@
             <p> proptech companies to note </p>
             <p> resources </p>
         </div>
+        -->
     </div>
 </template>
 

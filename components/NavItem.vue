@@ -1,5 +1,6 @@
 <template>
     <div id="BOVAEA part 1">
+        <!--
         <div class="flex flex-row">
             <h3><NuxtLink to="">{{ title }}</NuxtLInk></h3>
             <button @click="toggleIsHidden">
@@ -26,5 +27,6 @@
                 </li>
             </ul>
         </div>
+        -->
     </div>
 </template>

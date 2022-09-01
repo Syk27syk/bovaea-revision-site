@@ -14,11 +14,13 @@
         </sidebar>
         <div id="landing">
             <div class="grid grid-cols-3">
+                <!--
                 <Item
                     v-for=""
                     :key=""
                     :value=""
                 />
+                -->
             </div>
         </div>
     </div>
