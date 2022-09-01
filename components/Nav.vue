@@ -103,5 +103,20 @@
         <div id="financial planning for real estate investment">
             <p> financial planning </p>
         </div>
+        <div id="proptech101">
+            <p> visualizing properties </p>
+            <p> tech for developers and construction </p>
+            <p> tech for property search </p>
+            <p> property transactions/tech-enabled brokerage </p>
+            <p> property management </p>
+            <p> tech for marketing </p>
+            <p> tech for asset utilization - lease/rent </p>
+            <p> valuation and analytics </p>
+            <p> data in real estate </p>
+            <p> IoT in real estate </p>
+            <p> crowdfunding for investment </p>
+            <p> proptech companies to note </p>
+            <p> resources </p>
+        </div>
     </div>
 </template>
