@@ -1,12 +1,34 @@
 <template>
     <div>
         <div id="BOVAEA part 1">
-            <NuxtLink to=""> Property Taxation </NuxtLink>
-            <NuxtLink to=""> Intro to Law </NuxtLink>
-            <NuxtLink to=""> Principles and Practice of Marketing </NuxtLink>
-            <NuxtLink to=""> Principles of Economics</NuxtLink>
-            <NuxtLink to=""> Building Technology Part I</NuxtLink>
-            <NuxtLink to=""> Accounting </NuxtLink>
+            <div class="flex flex-row">
+                <h3><NuxtLink to="">BOVAEA Part 1</NuxtLInk></h3>
+                <button @click="toggleIsHidden1">
+                    <svg
+                        class="-mr-1 ml-2 h-5 w-5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true">
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            clip-rule="evenodd"
+                        />
+                     </svg>
+                </button>
+            </div>
+            <div v-show="isHidden" id="dropdown1" class="grid grid-rows-6">
+                <ul v-for="(name, link) in bovaea1list">{{ name }}: {{ link }} </ul>
+                <!--
+                <ul><NuxtLink to=""> Property Taxation </NuxtLink></ul>
+                <ul><NuxtLink to=""> Intro to Law </NuxtLink></ul>
+                <ul><NuxtLink to=""> Principles and Practice of Marketing </NuxtLink></ul>
+                <ul><NuxtLink to=""> Principles of Economics</NuxtLink></ul>
+                <ul><NuxtLink to=""> Building Technology Part I</NuxtLink></ul>
+                <ul><NuxtLink to=""> Accounting </NuxtLink></ul>
+                -->
+            </div>
         </div>
         <div id="BOVAEA part 2">
             <NuxtLink to=""> Estate Agency Law &#40;Professional Practice&#41;</NuxtLink>
@@ -120,3 +142,23 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      isHidden: true,
+    }
+  },
+  methods: {
+    toggleIsHidden (isHidden) {
+      console.log('I am running');
+      if (isHidden === true) {
+        isHidden = false;
+      } else {
+        isHidden = true;
+      }
+    }
+  }
+}
+</script>
