@@ -26,14 +26,6 @@
                     >
                     </li>
                 </ul>
-                <!--
-                <ul><NuxtLink to=""> Property Taxation </NuxtLink></ul>
-                <ul><NuxtLink to=""> Intro to Law </NuxtLink></ul>
-                <ul><NuxtLink to=""> Principles and Practice of Marketing </NuxtLink></ul>
-                <ul><NuxtLink to=""> Principles of Economics</NuxtLink></ul>
-                <ul><NuxtLink to=""> Building Technology Part I</NuxtLink></ul>
-                <ul><NuxtLink to=""> Accounting </NuxtLink></ul>
-                -->
             </div>
         </div>
         <div id="BOVAEA part 2">

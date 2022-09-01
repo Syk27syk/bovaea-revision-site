@@ -4,12 +4,12 @@
             <ul>
                 <li>Stamp Duty</li>
                 <li>Real Property Gains Tax</li>
-                <ul>Rates</li>
-                <ul>Premium</li>
-                <ul>Development Charge</li>
-                <ul>Quit Rent</ul>
-                <ul>Estate Duty</ul>
-                <ul>Income Tax</ul>
+                <li>Rates</li>
+                <li>Premium</li>
+                <li>Development Charge</li>
+                <li>Quit Rent</li>
+                <li>Estate Duty</li>
+                <li>Income Tax</li>
             </ul>
         </sidebar>
         <div id="landing">
